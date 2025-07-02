@@ -42,7 +42,7 @@ public class Q11 {
                 out = queueInit.get(Q - j - 1);
             } else {
                 // 이후 입력은 Q번째 뒤의 C 값을 그대로 통과
-                out = C[j - Q];
+                out = C[j- Q];
             }
             sb.append(out).append(' ');
         }
